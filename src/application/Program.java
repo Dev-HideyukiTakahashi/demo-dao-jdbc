@@ -1,11 +1,12 @@
 package application;
 
 import dao.DataSource;
+import model.entities.Department;
 
 public class Program {
 	public static void main(String[] args) {
-		DataSource.getConnection();
-		DataSource.closeConnection();
-		System.out.println("Abri e fecheu");
+		Department dp = new Department(1, "Books");
+		
+		System.out.println(dp);
 	}
 }
