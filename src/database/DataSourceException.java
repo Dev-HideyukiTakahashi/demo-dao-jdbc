@@ -1,4 +1,4 @@
-package dao;
+package database;
 
 public class DataSourceException extends RuntimeException {
 
